@@ -4,11 +4,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather Forecast for Farmers</title>
+  <title>Weather Application</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
+
+
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <div class="ticker__item">Kisan Call Centre: Toll-Free Number 1800-180-1551.</div>
+      <div class="ticker__item">Call for any Assistance!</div>
+      <div class="ticker__item"> ----- Jai Jawan Jai Kisan ! -----</div>
+      <div class="ticker__item">Kisan Call Centre: Toll-Free Number 1800-180-1551.</div>
+      <div class="ticker__item">Call for any Assistance!</div>
+      <div class="ticker__item"> ----- Jai Jawan Jai Kisan ! -----</div>
+    </div>
+  </div>
+
+  <div class="card">
+
+    <div class="search">
+      <input type="text" placeholder="Enter city name ..." spellcheck="false">
+
+      <button><img src="images/search.png"></button>
+
+      <div id="error">
+        Invalid City Name !
+      </div>
+
+
+    </div>
+
+
+
+    <div class="weather">
+      <img src="images/rain.png" class="weather-icon">
+      <p id="weather-info" style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Molestiae accusantium libero veniam
+        amet illum?</p>
+
+
+      <h1 class="temp">22°c</h1>
+      <p id="temp-info" style="margin-bottom:10px;">Lorem ipsum dolor sit amet.
+      </p>
+
+      <div class="feels-like">
+        ( Feels like: 30°c)
+      </div>
+
+      <h2 class="city">New York</h2>
+
+      <div class="details">
+        <div class="col">
+          <img src="images/humidity.png">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+            <p id="Humidity-info" style="margin-top:2px;">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="images/wind.png">
+          <div>
+            <p class="wind-speed">15 km/h</p>
+            <p>Wind Speed</p>
+            <p id="windspeed-info" style="margin-top:2px;">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="noteCrops&Farmers">
+        <div id="forCrops">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam earum vitae dicta dolore. Voluptatibus, rem
+          molestias quasi accusamus repellat doloremque.
+        </div>
+
+        <div id="forFarmers">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eaque iusto temporibus repellat aliquid
+          cupiditate sapiente adipisci veniam error eligendi.
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
